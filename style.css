@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+}
+
+.landscape {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 100vh;
+}
+
+.layer {
+	position: absolute;
+	left: -10%;
+	top: 0;
+	width: 110%;
+	height: 100%;
+}
+
+.back  {
+	background: url('images/back.jpg') center no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.front  {
+	background: url('images/front.png') center no-repeat;
+	background-size: cover;
+}	
+
